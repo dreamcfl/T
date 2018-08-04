@@ -1,13 +1,21 @@
 import React, { Component } from 'react';
 import './App.css';
+import { BrowserRouter as Router,Route,Redirect,Switch} from "react-router-dom"
+import Home from "./components/home"
+import Login from "./components/login"
 
 class App extends Component {
   render() {
     return (
       <div>
-        <h2>我是潘栋</h2>
-        <h2>我是陈峰磊</h2>
-        <h2>我是田建民</h2>
+       <Router>
+
+         <Switch>
+              <Route path="/home" component={Home}></Route>
+              <Route path="/login" component={Login}></Route>
+             <Redirect to="/home"/>
+         </Switch>
+       </Router>
   
       </div>
     )

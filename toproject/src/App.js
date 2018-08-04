@@ -7,9 +7,10 @@ class App extends Component {
       <div>
         <h2>我是潘栋</h2>
         <h2>我是陈峰磊</h2>
+        <h2>我是田建民</h2>
 
       </div>
-    );
+    )
   }
 }
 

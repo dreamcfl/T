@@ -7,6 +7,9 @@ class Home extends React.Component{
         return(
             <div>
                 <h2>首页</h2>
+       
+
+
             </div>
         )
     }

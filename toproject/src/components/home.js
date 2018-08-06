@@ -6,9 +6,13 @@ class Home extends React.Component{
     render(){
         return(
             <div>
-                <h2>首页</h2>
-       
+                <header>
+                    22
+                </header>
 
+                <section>22</section>
+
+                <footer>22</footer>
 
             </div>
         )

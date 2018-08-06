@@ -1,0 +1,20 @@
+
+header{
+    z-index: 30;opacity: .8;width:100%;background:#e5e5e5;
+}
+.h_list{
+    height:64px;display: flex;align-items: center;width:1180px;margin:0 auto;justify-content: space-between
+}
+.h_l{
+    display: flex;width:598px;justify-content: space-around;
+}
+header a{
+    color: black
+
+}
+.h_list>div{
+    display: flex;height:64px;align-items: center
+}
+.h_list>div span{
+    padding:0 5px;
+}

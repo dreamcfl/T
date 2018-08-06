@@ -1,0 +1,37 @@
+.D_ban{
+    height:530px;background:red;width:100%;
+     background: url(../images/d_banner.jpg) no-repeat center;
+     text-align: center;line-height: 530px;
+}
+.D_ban span:nth-of-type(1){
+    font-size:40px;font-weight: 900;padding:0 10px;
+}
+.D_ban span:nth-of-type(2){
+    font-size:20px;font-weight: 900;
+}
+.k_t{
+    padding:40px 0;display: flex;width:100%;justify-content: center;
+    align-items: center;
+}
+.k_t span{
+    width:100px;height:1px;background: black;margin:0 50px;
+}
+.k_list{
+    width:1180px;margin:0 auto;
+    display: flex;flex-wrap: wrap;justify-content: space-between
+    
+    
+}
+.k_list dl{
+    width:570px;
+}
+.k_list dl dd{
+    width:570px;text-align: center
+}
+.k_list dl dd h3{
+    padding:25px 0 10px;
+}
+.k_list dl dd p{
+    height:117px;text-align: left;border-top:1px solid #e5e5e5;margin-top:5px;
+    padding:10px 0 0;
+}

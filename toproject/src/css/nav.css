@@ -1,0 +1,16 @@
+.h_ban{
+    height:104px;border-bottom:1px solid #ccc;
+}
+.h_b_l{
+    width:1180px;height:104px;margin:0 auto;display: flex;justify-content: space-between;
+    align-items: center
+}
+.h_b_l li{
+    display: flex;flex-direction: column;text-align: center
+}
+.h_b_l li span:nth-of-type(1){
+    font-size:24px;
+}
+.h_b_l li:hover{
+  color:green
+}

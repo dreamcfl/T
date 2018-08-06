@@ -1,0 +1,77 @@
+
+
+			#footer_a_wrap{
+				background: #ebebec;
+			}
+			#footer_a{
+				height:160px;
+				width: 1180px;
+				margin: 0 auto;
+				display: flex;
+				justify-content: space-between;
+				background: #ebebec;
+			}
+			#footer_a>p{
+				height:160px;
+				width: 225px;
+				background: url(../images/why-icon.png) no-repeat 0 0 ;
+			}
+	        #footer_a>ul{
+	        	height:160px;
+	        	width: 935px;
+	        	display: flex;
+	        	
+	        }
+			
+			#footer_a>ul>.footer_a_lei{
+				heihgt:160px;
+				width: 195px;
+	        	display: flex;
+	        	flex-direction: column;
+			}
+			#footer_a>ul>.footer_a_lei>p{
+				height: 80px;
+				width: 60px;
+				margin:30px auto 0 ;
+			}
+			#footer_a>ul>.footer_a_lei>span{
+				display: block;
+				height:50px;
+				line-height: 40px;
+				width: 195px;
+				text-align: center;
+			}
+			
+			#footer_a>ul>li:nth-child(1)>p{
+				background: url(../images/why-icon.png) no-repeat -242px 0px ;
+			}
+			#footer_a>ul>li:nth-child(3)>p{
+				background: url(../images/why-icon.png) no-repeat -321px 0 ;
+			}
+			#footer_a>ul>li:nth-child(5)>p{
+				background: url(../images/why-icon.png) no-repeat -401px 0 ;
+			}
+			#footer_a>ul>li:nth-child(7)>p{
+				background: url(../images/why-icon.png) no-repeat -481px 0 ;
+			}
+			
+			
+			
+			
+			
+			
+			#footer_a>ul>.footer_a_xiexian{
+				heihgt:160px;
+				width:40px;
+				background: url(../images/why-icon.png) no-repeat -570px 30px;
+			}
+
+
+
+
+
+
+
+
+
+

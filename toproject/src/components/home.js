@@ -1,4 +1,5 @@
 import React from "react";
+import Header from "./header"
 class Home extends React.Component{
     constructor(props){
         super(props)
@@ -7,7 +8,7 @@ class Home extends React.Component{
         return(
             <div>
                 <header>
-                    22
+                    <Header/>
                 </header>
 
                 <section>22</section>
@@ -18,4 +19,4 @@ class Home extends React.Component{
         )
     }
 }
-export default Home;
+export default Home

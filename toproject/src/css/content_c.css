@@ -1,0 +1,133 @@
+
+	#content_c{
+					height: 725px;
+					width: 1180px;
+					margin: 0 auto;
+					background: #f9f9f9;
+			}
+			
+			#content_c_wrap{
+				background: #f9f9f9;
+			}
+			
+			#content_c_t{
+				height:115px;
+				width: 1180px;
+				
+			}
+			#content_c_t p{
+				height:54px;
+				line-height: 54px;
+				width: 1180px;
+				text-align: center;
+				font-size: 34px;
+			}
+			#content_c_t fieldset{
+				height:28px;
+				width:265px;
+				border: 0;
+				border-top: 1px solid #999;
+				margin: 0 auto;
+			}
+			#content_c_t fieldset legend{
+				text-align: center;
+				padding: 0 10px;
+			}
+			
+			#content_c_x{
+				height:600px;
+				width:1180px;
+				display:flex ;
+				justify-content: space-between;
+			}
+			.content_c_xm{
+				width:570px;
+				height: 610px;
+				background: #fff;
+			}
+			.content_c_xm img{
+				display: block;
+				height:380px;
+				width: 570px;
+			}
+			.content_c_xm .content_c_xgeren{
+				height:90px;
+				width: 570px;
+				border-bottom: 1px solid #999;
+				overflow: hidden;
+			}
+			.content_c_xm>.content_c_xgeren>p:nth-child(1){
+				height:32px;
+				width: 570px;
+				text-align: center;
+				color:#3eb166;
+				color:20px;
+				margin-top:20px;
+			}
+			.content_c_xm>.content_c_xgeren>p:nth-child(2){
+				height:34px;
+				line-height: 34px;
+				width: 570px;
+				text-align: center;
+			}
+			.content_c_xm>.content_c_xgeren>p:nth-child(2)>span:nth-child(2){
+				display: inline-block;
+				height: 15px;
+				line-height: 34px;
+				border-left: 1px solid #000;
+				margin: 0 3px;
+			}
+			.content_c_xm>.content_c_xganx{
+				height:135px;
+				width: 570px;
+				display: flex;
+				justify-content: space-between;
+				overflow: hidden;
+			}
+			.content_c_xm>.content_c_xganx>p:nth-child(1){
+				height: 135px;
+				width:60px;
+				
+			}
+			.content_c_xm>.content_c_xganx>p:nth-child(1)>img{
+				display: block;
+				height:30px;
+				width: 36px;
+				margin:20px auto ;
+			}
+			.content_c_xm>.content_c_xganx>p:nth-child(2){
+				height: 105px;
+				width:490px;
+				margin-right:25px;
+				margin-top: 25px;
+			}
+			
+			#content_c_gengduo{
+				height:175px;
+				width: 1180px;
+				text-align: center;
+				margin: 0 auto;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				background: #f1f1f1;
+			}
+			#content_c_gengduo p{
+				height:42px;
+				width: 210px;
+				line-height: 42px;
+				border: 1px solid #999999;
+				text-align: center;
+			}
+
+
+
+
+
+
+
+
+
+
+
+

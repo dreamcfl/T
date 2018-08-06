@@ -41,22 +41,22 @@ class Footer_a extends React.Component{
            		<div id="footer_a">
 					<p></p>
 					<ul>
-						<li class="footer_a_lei">
+						<li className="footer_a_lei">
 							<p></p>
 							<span>不和陌生人拼团</span>
 						</li>
-						<li class="footer_a_xiexian"></li>
-						<li class="footer_a_lei">
+						<li className="footer_a_xiexian"></li>
+						<li className="footer_a_lei">
 							<p></p>
 							<span>零操心，何必自助</span>
 						</li>
-						<li class="footer_a_xiexian"></li>
-						<li class="footer_a_lei">
+						<li className="footer_a_xiexian"></li>
+						<li className="footer_a_lei">
 							<p></p>
 							<span>贴身管家，有问必答</span>
 						</li>
-						<li class="footer_a_xiexian"></li>
-						<li class="footer_a_lei">
+						<li className="footer_a_xiexian"></li>
+						<li className="footer_a_lei">
 							<p></p>
 							<span>独家资源，高性价比</span>
 						</li>

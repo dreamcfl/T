@@ -1,7 +1,8 @@
 
-import React from "react"
+import React from "react" 
 
 import "../css/content_c.css"
+import $ from 'jquery'
 
 import content_t1 from "../images/2018_6_25_1529894528757201598.jpg"
 import content_t2 from "../images/cmmt-quote.png"
@@ -12,23 +13,40 @@ class Content_c extends React.Component{
         super(props)
     }
 
+	componentDidMount(){
+		$("#content_c_gengduo").find("p").hover(
+			function(){
+				$(this).css({"color":"#3eb166"})
+			},
+			function(){
+				$(this).css({"color":"#000"})
+			}
+		)
+	}
+
+	tap(){
+		console.log("aaa")
+//		this.props.history.push("/khpj")
+		
+	}
+
    render(){
        return(
            <div>
            <div id="content_c_wrap">
               <div id="content_c">
 			<div id="content_c_t">
+			
 				<p>客户评价</p>
-				
 				<fieldset>
 					<legend>来自用户的真实出游评价</legend>
 				</fieldset>
 			</div>
 			
 			<div id="content_c_x">
-				<div class="content_c_xm content_c_x_left">
+				<div className="content_c_xm content_c_x_left">
 					<img src={content_t1} />
-					<div class="content_c_xgeren">
+					<div className="content_c_xgeren">
 						<p>【日本私属定制】东京箱根6日之旅</p>
 						<p>
 							<span>李女士</span>
@@ -36,7 +54,7 @@ class Content_c extends React.Component{
 							<span>2018年05月</span>
 						</p>
 					</div>
-					<div class="content_c_xganx">
+					<div className="content_c_xganx">
 						<p>
 							<img src={content_t2}/>
 						</p>
@@ -47,9 +65,9 @@ class Content_c extends React.Component{
 					</div>
 				</div>
 				
-				<div class="content_c_xm content_c_x_right">
+				<div className="content_c_xm content_c_x_right">
 					<img src={content_t3} />
-					<div class="content_c_xgeren">
+					<div className="content_c_xgeren">
 						<p>【巴西阿根廷美国】深度体验之旅</p>
 						<p>
 							<span>姜女士</span>
@@ -57,7 +75,7 @@ class Content_c extends React.Component{
 							<span>2018年05月</span>
 						</p>
 					</div>
-					<div class="content_c_xganx">
+					<div className="content_c_xganx">
 						<p>
 							<img src={content_t2}/>
 						</p>
@@ -73,7 +91,7 @@ class Content_c extends React.Component{
 		</div>
 		
               <div id="content_c_gengduo">
-				<p>查看更多</p>
+				<p onClick={this.tap.bind(this)}>查看更多</p>
 			</div>
 		  </div>	
         </div>

@@ -1,6 +1,6 @@
 
 header{
-    z-index: 30;opacity: .8;width:100%;background:#e5e5e5;
+    z-index: 30;opacity: .8;width:100%;background:#f9f9f9;
 }
 .h_list{
     height:64px;display: flex;align-items: center;width:1180px;margin:0 auto;justify-content: space-between

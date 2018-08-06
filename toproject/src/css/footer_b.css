@@ -33,7 +33,7 @@
 				color: #000000;
 			}
 			#footer_b>#footer_b_kuang>ul{
-				height: 130px;
+				height: 70px;
 				width:980px;
 				margin-right: 60px;
 				text-align: center;
@@ -43,14 +43,14 @@
 				float: left;
 				height: 20px;
 				width:120px;
-				
+				margin-top: 10px;
 			}
 			#footer_b>#footer_b_kuang>ul>li>a{
 				display: block;
 				float: left;
 				font-size:12px;
 				text-align: left;
-				margin-top: 15px;
+				color: #999;
 				
 			}
 			#footer_b>#footer_b_kuang>ul>li>a:hover{

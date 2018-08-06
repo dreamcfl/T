@@ -11,27 +11,31 @@
 			}
 			
 			#content_c_t{
-				height:115px;
+				height:125px;
 				width: 1180px;
-				
+			
 			}
-			#content_c_t p{
-				height:54px;
-				line-height: 54px;
+			#content_c_t>p{
+				height:30px;
+				line-height: 30px;
 				width: 1180px;
 				text-align: center;
-				font-size: 34px;
+				font-size: 30px;
 			}
-			#content_c_t fieldset{
-				height:28px;
+			#content_c_t>fieldset{
+				height:45px;
 				width:265px;
 				border: 0;
 				border-top: 1px solid #999;
 				margin: 0 auto;
+				
 			}
-			#content_c_t fieldset legend{
+			#content_c_t>fieldset>legend{
 				text-align: center;
-				padding: 0 10px;
+				font-size:20px;
+				padding: 0 5px;
+				width: 240px;
+				
 			}
 			
 			#content_c_x{
@@ -58,11 +62,11 @@
 			}
 			.content_c_xm>.content_c_xgeren>p:nth-child(1){
 				height:32px;
+				line-height: 32px;
 				width: 570px;
 				text-align: center;
 				color:#3eb166;
-				color:20px;
-				margin-top:20px;
+				margin-top:10px;
 			}
 			.content_c_xm>.content_c_xgeren>p:nth-child(2){
 				height:34px;
@@ -72,10 +76,11 @@
 			}
 			.content_c_xm>.content_c_xgeren>p:nth-child(2)>span:nth-child(2){
 				display: inline-block;
-				height: 15px;
+				height: 10px;
 				line-height: 34px;
 				border-left: 1px solid #000;
-				margin: 0 3px;
+				margin: 0 10px;
+				font-size: 16px;
 			}
 			.content_c_xm>.content_c_xganx{
 				height:135px;
@@ -110,7 +115,7 @@
 				display: flex;
 				justify-content: center;
 				align-items: center;
-				background: #f1f1f1;
+				background: #f9f9f9;
 			}
 			#content_c_gengduo p{
 				height:42px;

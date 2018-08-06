@@ -2,7 +2,7 @@
 import React from "react"
 
 
-class Header extends React.Component{
+class Content_a extends React.Component{
     constructor(props){
         super(props)
     }
@@ -10,10 +10,11 @@ class Header extends React.Component{
    render(){
        return(
            <div>
-               
+              
+              
            </div>
        )
    }
 }
 
-export default Header;
+export default Content_a;

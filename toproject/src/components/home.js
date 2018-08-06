@@ -1,5 +1,15 @@
 import React from "react";
-import Header from "./header"
+import Header from "./header";
+import Banner from "./banner";
+import Nav from "./nav";
+import Footer_c from "./footer_c";
+import Footer_b from "./footer_b";
+import Footer_a from "./footer_a";
+import Content_a from "./content_a";
+import Content_b from "./content_b";
+import Content_c from "./content_c";
+import Content_d from "./content_d";
+import Content_f from "./content_f";
 class Home extends React.Component{
     constructor(props){
         super(props)
@@ -7,17 +17,28 @@ class Home extends React.Component{
     render(){
         return(
             <div>
-
                 <header>
                     <Header/>
                 </header>
 
-                <section>22</section>
+                <section>
+                    <Banner/>
+                    <Nav/>
+                    <Content_a/>
+                    <Content_b/>
+                    <Content_c/>
+                    <Content_d/>
+                    <Content_f/>
+                </section>
 
-                <footer>22</footer>
+                <footer>
+                    <Footer_a/>
+                    <Footer_b/>
+                    <Footer_c/>
+                </footer>
 
             </div>
         )
     }
 }
-export default Home
+export default Home;

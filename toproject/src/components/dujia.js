@@ -16,9 +16,9 @@ class Dujia extends React.Component{
             	<Header/>
                <div id="dujia_lb">
                	  <Carousel autoplay>
-				    <div><h3><img src={dzxc_t1}/></h3></div>
-				    <div><h3><img src={dzxc_t2}/></h3></div>
-				    <div><h3><img src={dzxc_t3}/></h3></div>
+				    <div><img src={dzxc_t1}/></div>
+				    <div><img src={dzxc_t2}/></div>
+				    <div><img src={dzxc_t3}/></div>
 				  </Carousel>
                 </div>
                <div id="dujia_nav">

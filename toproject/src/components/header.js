@@ -4,9 +4,6 @@ import $ from "jquery"
 import { BrowserRouter as Router,Link,Route,Redirect,Switch} from "react-router-dom"
 import "../css/header.css"
 import h_logo from "../images/h_logo.jpg"
-import Dzxc from "./dzxc"
-import Khpj from "./dzxc"
-import 'antd/dist/antd.css'
 import {Icon} from "antd" 
 class Header extends React.Component{
     constructor(props){
@@ -24,10 +21,10 @@ class Header extends React.Component{
                             <ul className="h_l">
                                 <li><Link to="/home">首页</Link></li>
                                 <li><Link to="/dzxc">定制行程</Link></li>
-                                <li><Link to="/dzxc">目的地</Link></li>
+                                <li><Link to="/mdd">目的地</Link></li>
                                 <li><Link to="/khpj">客户评价</Link></li>
                                 <li><Link to="/dzxc">度假&别墅</Link></li>
-                                <li><Link to="/dzxc">商务考察</Link></li>
+                                <li><Link to="/swkc">商务考察</Link></li>
                             </ul>
                             <div>   
                                 <div>

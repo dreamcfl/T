@@ -5,6 +5,8 @@ import Home from "./components/home"
 import Login from "./components/login"
 import Dzxc from "./components/dzxc"
 import Khpj from "./components/khpj"
+import Mdd from "./components/mdd"
+import Swkc from "./components/swkc"
 class App extends Component {
   render() {
     return (
@@ -16,6 +18,8 @@ class App extends Component {
               <Route path="/login" component={Login}></Route>
               <Route path="/dzxc" component={Dzxc}></Route>
               <Route path="/khpj" component={Khpj}></Route>
+              <Route path="/mdd" component={Mdd}></Route>
+              <Route path="/swkc" component={Swkc}></Route>
              <Redirect to="/home"/>
          </Switch>
        </Router>

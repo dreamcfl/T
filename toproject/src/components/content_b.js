@@ -10,6 +10,7 @@ class Content_b extends React.Component{
     }
 
    render(){
+     var  arr=[1,2,3,4,5,6]
        return(
            <div className="content_b">
                 <div className="content_b_c">
@@ -18,270 +19,55 @@ class Content_b extends React.Component{
                      <div className="content_b_c_bottom">
                      
   <Carousel>
-    <div>
-        <div className='content_b_c_bottom_box'>
-            <div>
+   {
+       arr.map(function(){
+           return( <div>
+            <div className='content_b_c_bottom_box'>
+                <div>
+                    <img src={img_content_b_1} />
+                    <h4>徐婉贞</h4>
+                    <p>旅行顾问</p>
+                    <span>_____</span>
+                    <p>南美洲</p>
+                    <strong>
+                    看看她的介绍
+                    </strong>
+                </div>
+                 <div>
+                 <img src={img_content_b_1} />
+                    <h4>徐婉贞</h4>
+                    <p>旅行顾问</p>
+                    <span>_____</span>
+                    <p>南美洲</p>
+                    <strong>
+                    看看她的介绍
+                    </strong>
+                </div>
+                <div>
                 <img src={img_content_b_1} />
-                <h4>徐婉贞</h4>
-                <p>旅行顾问</p>
-                <span>_____</span>
-                <p>南美洲</p>
-                <strong>
-                看看她的介绍
-                </strong>
+                    <h4>徐婉贞</h4>
+                    <p>旅行顾问</p>
+                    <span>_____</span>
+                    <p>南美洲</p>
+                    <strong>
+                    看看她的介绍
+                    </strong>
+                    </div>
+                     <div>
+                     <img src={img_content_b_1} />
+                    <h4>徐婉贞</h4>
+                    <p>旅行顾问</p>
+                    <span>_____</span>
+                    <p>南美洲</p>
+                    <strong>
+                    看看她的介绍
+                    </strong>
+                    </div>
             </div>
-             <div>
-             <img src={img_content_b_1} />
-                <h4>徐婉贞</h4>
-                <p>旅行顾问</p>
-                <span>_____</span>
-                <p>南美洲</p>
-                <strong>
-                看看她的介绍
-                </strong>
-            </div>
-            <div>
-            <img src={img_content_b_1} />
-                <h4>徐婉贞</h4>
-                <p>旅行顾问</p>
-                <span>_____</span>
-                <p>南美洲</p>
-                <strong>
-                看看她的介绍
-                </strong>
-                </div>
-                 <div>
-                 <img src={img_content_b_1} />
-                <h4>徐婉贞</h4>
-                <p>旅行顾问</p>
-                <span>_____</span>
-                <p>南美洲</p>
-                <strong>
-                看看她的介绍
-                </strong>
-                </div>
-        </div>
-    </div>
-    <div>
-        <div className='content_b_c_bottom_box'>
-            <div>
-            <img src={img_content_b_1} />
-                <h4>徐婉贞</h4>
-                <p>旅行顾问</p>
-                <span>_____</span>
-                <p>南美洲</p>
-                <strong>
-                看看她的介绍
-                </strong>
-            </div>
-             <div>
-             <img src={img_content_b_1} />
-                <h4>徐婉贞</h4>
-                <p>旅行顾问</p>
-                <span>_____</span>
-                <p>南美洲</p>
-                <strong>
-                看看她的介绍
-                </strong>
-            </div>
-            <div>
-            <img src={img_content_b_1} />
-                <h4>徐婉贞</h4>
-                <p>旅行顾问</p>
-                <span>_____</span>
-                <p>南美洲</p>
-                <strong>
-                看看她的介绍
-                </strong>
-                </div>
-                 <div>
-                 <img src={img_content_b_1} />
-                <h4>徐婉贞</h4>
-                <p>旅行顾问</p>
-                <span>_____</span>
-                <p>南美洲</p>
-                <strong>
-                看看她的介绍
-                </strong>
-                </div>
-        </div>
-        </div>
-    <div>
-    <div className='content_b_c_bottom_box'>
-            <div>
-            <img src={img_content_b_1} />
-                <h4>徐婉贞</h4>
-                <p>旅行顾问</p>
-                <span>_____</span>
-                <p>南美洲</p>
-                <strong>
-                看看她的介绍
-                </strong>
-            </div>
-             <div>
-             <img src={img_content_b_1} />
-                <h4>徐婉贞</h4>
-                <p>旅行顾问</p>
-                <span>_____</span>
-                <p>南美洲</p>
-                <strong>
-                看看她的介绍
-                </strong>
-            </div>
-            <div>
-            <img src={img_content_b_1} />
-                <h4>徐婉贞</h4>
-                <p>旅行顾问</p>
-                <span>_____</span>
-                <p>南美洲</p>
-                <strong>
-                看看她的介绍
-                </strong>
-                </div>
-                 <div>
-                 <img src={img_content_b_1} />
-                <h4>徐婉贞</h4>
-                <p>旅行顾问</p>
-                <span>_____</span>
-                <p>南美洲</p>
-                <strong>
-                看看她的介绍
-                </strong>
-                </div>
-        </div>
-    </div>
-    <div>
-    <div className='content_b_c_bottom_box'>
-            <div>
-            <img src={img_content_b_1} />
-                <h4>徐婉贞</h4>
-                <p>旅行顾问</p>
-                <span>_____</span>
-                <p>南美洲</p>
-                <strong>
-                看看她的介绍
-                </strong>
-            </div>
-             <div>
-             <img src={img_content_b_1} />
-                <h4>徐婉贞</h4>
-                <p>旅行顾问</p>
-                <span>_____</span>
-                <p>南美洲</p>
-                <strong>
-                看看她的介绍
-                </strong>
-            </div>
-            <div>
-            <img src={img_content_b_1} />
-                <h4>徐婉贞</h4>
-                <p>旅行顾问</p>
-                <span>_____</span>
-                <p>南美洲</p>
-                <strong>
-                看看她的介绍
-                </strong>
-                </div>
-                 <div>
-                 <img src={img_content_b_1} />
-                <h4>徐婉贞</h4>
-                <p>旅行顾问</p>
-                <span>_____</span>
-                <p>南美洲</p>
-                <strong>
-                看看她的介绍
-                </strong>
-                </div>
-        </div>
-    </div>
-    <div>
-    <div className='content_b_c_bottom_box'>
-            <div>
-            <img src={img_content_b_1} />
-                <h4>徐婉贞</h4>
-                <p>旅行顾问</p>
-                <span>_____</span>
-                <p>南美洲</p>
-                <strong>
-                看看她的介绍
-                </strong>
-            </div>
-             <div>
-             <img src={img_content_b_1} />
-                <h4>徐婉贞</h4>
-                <p>旅行顾问</p>
-                <span>_____</span>
-                <p>南美洲</p>
-                <strong>
-                看看她的介绍
-                </strong>
-            </div>
-            <div>
-            <img src={img_content_b_1} />
-                <h4>徐婉贞</h4>
-                <p>旅行顾问</p>
-                <span>_____</span>
-                <p>南美洲</p>
-                <strong>
-                看看她的介绍
-                </strong>
-                </div>
-                 <div>
-                 <img src={img_content_b_1} />
-                <h4>徐婉贞</h4>
-                <p>旅行顾问</p>
-                <span>_____</span>
-                <p>南美洲</p>
-                <strong>
-                看看她的介绍
-                </strong>
-                </div>
-        </div>
-    </div>
-    <div>
-    <div className='content_b_c_bottom_box'>
-            <div>
-            <img src={img_content_b_1} />
-                <h4>徐婉贞</h4>
-                <p>旅行顾问</p>
-                <span>_____</span>
-                <p>南美洲</p>
-                <strong>
-                看看她的介绍
-                </strong>
-            </div>
-             <div>
-             <img src={img_content_b_1} />
-                <h4>徐婉贞</h4>
-                <p>旅行顾问</p>
-                <span>_____</span>
-                <p>南美洲</p>
-                <strong>
-                看看她的介绍
-                </strong>
-            </div>
-            <div>
-            <img src={img_content_b_1} />
-                <h4>徐婉贞</h4>
-                <p>旅行顾问</p>
-                <span>_____</span>
-                <p>南美洲</p>
-                <strong>
-                看看她的介绍
-                </strong>
-                </div>
-                 <div>
-                 <img src={img_content_b_1} />
-                <h4>徐婉贞</h4>
-                <p>旅行顾问</p>
-                <span>_____</span>
-                <p>南美洲</p>
-                <strong>
-                看看她的介绍
-                </strong>
-                </div>
-        </div>
-    </div>
+        </div>)
+       })
+   }
+   
   </Carousel>
                      
                      </div>

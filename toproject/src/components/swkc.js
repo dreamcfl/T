@@ -1,4 +1,5 @@
 import React from "react"
+import Header from "./header";
 
 
 class Swkc extends React.Component{
@@ -8,7 +9,7 @@ class Swkc extends React.Component{
     render(){
         return(
             <div>
-               
+               <Header/>
             </div>
         )
     }

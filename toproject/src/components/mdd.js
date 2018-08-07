@@ -1,4 +1,5 @@
 import React from "react"
+import Header from "./header";
 
 
 class Mdd extends React.Component{
@@ -8,7 +9,7 @@ class Mdd extends React.Component{
     render(){
         return(
             <div>
-               
+               <Header/>
             </div>
         )
     }

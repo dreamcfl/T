@@ -1,5 +1,7 @@
 import React from "react"
 import Header from "./header"
+import Content_c from "./content_c"
+
 import "../css/khpj.css"
 import k_o from "../images/k_o.jpg"
 import k_t from "../images/k_t.jpg"

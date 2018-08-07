@@ -23,13 +23,13 @@ class Header extends React.Component{
                                 <li><Link to="/dzxc">定制行程</Link></li>
                                 <li><Link to="/mdd">目的地</Link></li>
                                 <li><Link to="/khpj">客户评价</Link></li>
-                                <li><Link to="/dzxc">度假&别墅</Link></li>
                                 <li><Link to="/swkc">商务考察</Link></li>
+                                <li><Link to="/dujia">度假&别墅</Link></li>
                             </ul>
                             <div>   
                                 <div>
                                     <span><Icon type="file-text" /></span>
-                                    <span><Link to="/home">我的订单</Link></span>
+                                    <span><Link to="/dingdan">我的订单</Link></span>
                                     <span><Icon type="message" /></span>
                                 </div>
                                 <div>

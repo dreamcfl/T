@@ -26,7 +26,7 @@ class Content_c extends React.Component{
 
 	tap(){
 		console.log("aaa")
-		this.props.history.push("/khpj")
+		//this.props.history.push("/khpj")
 		
 	}
 

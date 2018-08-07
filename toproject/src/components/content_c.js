@@ -22,12 +22,12 @@ class Content_c extends React.Component{
 				$(this).css({"color":"#000"})
 			}
 		)
+		$("#content_c_gengduo").find("p").click(function(){
+			window.location.href="khpj"
+			
+		})
 	}
 
-	tap(){
-		console.log("aaa")
-//	    this.props.history.push("/khpj")
-	}
 
    render(){
        return(
@@ -90,7 +90,7 @@ class Content_c extends React.Component{
 		</div>
 		
               <div id="content_c_gengduo">
-				<p onClick={this.tap.bind(this)}>查看更多</p>
+				<p>查看更多</p>
 			</div>
 		  </div>	
         </div>

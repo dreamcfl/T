@@ -1,14 +1,275 @@
+
 .ant-carousel .slick-slide {
   text-align: center;
-  /*height: 160px;
-  line-height: 160px;*/
-  /* background: #364d79; */
   overflow: hidden;
+}
+#dujia_lb{
+	height: 490px;
+}
+
+
+
+#dujia_nav{
+   height: 260px;
+   width:1070px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+}
+#dujia_nav_left{
+	width:680px;
+	height: 260px;
+	border-right: 1px solid #999;
+}
+#dujia_nav_left>p:nth-child(1){
+	height:50px;
+	width: 100%;
+	line-height: 50px;
+	text-indent: 20px;
+}
+
+#dujia_nav_left>p:nth-child(2){
+	height:200px ;
+	width: 100%;
+	
+}
+
+#dujia_nav_left>p:nth-child(2)>span{
+	display: inline-block;
+	height: 40px;
+	width: 100px;
+	background: #f6f6f6;
+	text-align: center;
+	line-height: 40px;
+	margin-right:5px ;
+	border-radius: 5px;
+}
+#dujia_nav_left>p:nth-child(2)>span:hover{
+	color: #FFFFFF;
+	background: #3eb166;
+}
+#dujia_nav_right{
+	height: 260px;
+	width:380px;
+	position: relative;
+	
+}
+#dujia_nav_right>div{
+	height: 140px;
+	width:100%;
+	position: absolute;
+	bottom: 0;
+	right: 5px;
+}
+#dujia_nav_right>div>span{
+	display: block;
+	height: 30px;
+	width: 100%;
+	line-height: 30px;
+	text-indent:20px ;
+}
+#dujia_nav_right>div>p{
+	height: 110px;
+	width: 100%;
+	display:flex;
+	flex-wrap:wrap ;
+	justify-content: flex-start;
+	
+}
+#dujia_nav_right>div>p>a{
+	display: block;
+	height: 55px;
+  width: 190px;
+}
+#dujia_nav_right>div>p>a>img{
+	display: block;
+	height: 50px;
+	width:186px;
+	margin: 0 auto;
+}
+#dujia_nav_right>div>p>a:nth-child(1){
+	border-right: 1px dashed #999;
+	border-bottom: 1px dashed #999;
+	
+}
+#dujia_nav_right>div>p>a:nth-child(4){
+	border-left: 1px dashed #999;
+	border-top: 1px dashed #999;
+	
+}
+#dujia_liebiao{
+	height: 1700px;
+
+	background: url(../images/villa-bg.jpg) no-repeat center/cover;
+	overflow: hidden;
+}
+
+#dujia_liebiao .dujia_liebiao_kuai{
+	height:270px;
+	width: 1070px;
+	margin: 0 auto;
+	margin-top:25px;
+	display: flex;
+	background: #fff;
+	justify-content: space-between;
+	border-radius: 0 10px 10px 0;
+}
+#dujia_liebiao .dujia_liebiao_kuai>img{
+	display: block;
+	height:270px;
+	width: 685px;
+}
+#dujia_liebiao .dujia_liebiao_kuai>div{
+	height:270px;
+	width:355px;
+}
+#dujia_liebiao .dujia_liebiao_kuai>div>p:nth-of-type(1){
+	height:34px;
+	width: 355px;
+	margin: 0;
+	padding: 0;
+}
+#dujia_liebiao .dujia_liebiao_kuai>div>p:nth-of-type(1)>strong{
+	float: left;
+	width: 180px;
+	height: 34px;
+	line-height: 34px;
+	font-weight: 900;
+	font-size: 16px;
+	
+}
+
+#dujia_liebiao .dujia_liebiao_kuai>div>p:nth-of-type(1)>span{
+	float: left;
+	width:130px;
+	height: 34px;
+	line-height: 34px;
+	font-size: 16px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+#dujia_liebiao .dujia_liebiao_kuai>div>p:nth-of-type(1)>span:nth-of-type(2){
+	
+	float:left;
+	heihgt:34px;
+	line-height: 34px;
+	width:20px;
+	background: url(../images/villa-icons.png) no-repeat  -120px -208px;
+	
+}
+#dujia_liebiao .dujia_liebiao_kuai>div>p:nth-of-type(2){
+	height:20px;
+	width: 100%;
+	line-height: 20px;
+	font-weight: 900;
+	margin: 0;
+	padding: 0;
+}
+#dujia_liebiao .dujia_liebiao_kuai>div>p:nth-of-type(3){
+	height:45px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+#dujia_liebiao .dujia_liebiao_kuai>div>p:nth-of-type(3)>span{
+	float: left;
+	height: 45px;
+	width:20px;
+	background: url(../images/Villa-ui.png) no-repeat 0  -27px;
+}
+#dujia_liebiao .dujia_liebiao_kuai>div>p:nth-of-type(3)>strong{
+	display: block;
+	float: left;
+	height: 45px;
+	width:300px;
+}
+#dujia_liebiao .dujia_liebiao_kuai>div>div:nth-of-type(1){
+	height:80px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background: #f3f3f3;
+}
+#dujia_liebiao .dujia_liebiao_kuai>div>div:nth-of-type(1)>P:nth-child(1){
+	height:30px;
+	width: 100%;
+	line-height: 30px;
+	text-indent: 20px;
+	margin: 0;
+	padding: 0;
+	
+}
+
+#dujia_liebiao .dujia_liebiao_kuai>div>div:nth-of-type(1)>P:nth-child(2){
+	height: 50px;
+	width: 100%;
+	display: flex;
 }
 
 
 
 
+#dujia_liebiao .dujia_liebiao_kuai>div>div:nth-of-type(1)>P:nth-child(2)>img{
+	display: block;
+	height:40px;
+	width: 40px;
+	margin-left: 20px;
+}
+#dujia_liebiao .dujia_liebiao_kuai>div>div:nth-of-type(1)>P:nth-child(2)>span{
+	display: block;
+	height:50px;
+	/*line-height: 20px;*/
+	width: 230px;
+	margin-left: 5px;
+	text-overflow: ellipsis;
+	/*white-space: nowrap;*/
+	overflow: hidden;
+	font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+#dujia_liebiao .dujia_liebiao_kuai>div>div:nth-of-type(2){
+	height:85px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	display: flex;
+	justify-content: space-between;
+}
+#dujia_liebiao .dujia_liebiao_kuai>div>div:nth-of-type(2)>p:nth-child(1){
+	height: 85px;
+	width: 150px;
+	line-height: 85px;
+	font-weight: 900;
+	font-size: 26px;
+	margin: 0;
+	padding: 0;
+}
+#dujia_liebiao .dujia_liebiao_kuai>div>div:nth-of-type(2)>p:nth-child(1)>mark{
+	color: #000000;
+	background: #fff;
+	font-size: 12px;
+	font-weight: 100;
+}
+#dujia_liebiao .dujia_liebiao_kuai>div>div:nth-of-type(2)>p:nth-child(2){
+	height:45px;
+	width: 130px;
+	background: url(../images/villa-icons.png) no-repeat 0 -85px;
+	margin: 0;
+	padding: 0;
+	margin-top:20px;
+	margin-right:2px;
+}
 
 
 

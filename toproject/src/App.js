@@ -5,6 +5,9 @@ import Home from "./components/home"
 import Login from "./components/login"
 import Dzxc from "./components/dzxc"
 import Khpj from "./components/khpj"
+import Dujia from "./components/dujia"
+import Dingdan from "./components/dingdan"
+
 class App extends Component {
   render() {
     return (
@@ -16,6 +19,10 @@ class App extends Component {
               <Route path="/login" component={Login}></Route>
               <Route path="/dzxc" component={Dzxc}></Route>
               <Route path="/khpj" component={Khpj}></Route>
+              <Route path="/dujia" component={Dujia}></Route>
+              <Route path="/dingdan" component={Dingdan}></Route>
+              
+              
              <Redirect to="/home"/>
          </Switch>
        </Router>

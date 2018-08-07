@@ -31,9 +31,7 @@
     background: #f9f9f9;
     overflow: hidden;
   }
-  .ant-carousel .slick-slide h3 {
-    color: #fff;
-  }
+  
   .content_b_c_bottom_box{
     display: flex;
     justify-content:space-between;
@@ -43,8 +41,26 @@
       cursor: pointer;
     width: 258px;
     height: 320px;
+    overflow: hidden;
     background: #fff;
-  
+  position: relative;
+  }
+  .content_b_c_bottom_box>div .content_b_c_bottom_box1{
+      position: absolute;
+      cursor: pointer;
+      width: 258px;
+      height: 320px;
+      top:320px;
+      background: #fff;
+  }
+  .content_b_c_bottom_box1 span{
+      color: green;
+  }
+  .content_b_c_bottom_box1 h3{
+      margin-top: 50px;
+  }
+  .content_b_c_bottom_box1 p{
+      padding: 20px 60px 0;
   }
   .content_b_c_bottom_box>div img{
       width: 110px;
@@ -74,4 +90,5 @@
 .content_b_c_bottom_box>div strong:hover{
     background: green;
     color: #fff;
+
 }

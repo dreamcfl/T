@@ -8,9 +8,19 @@ header{
 .h_l{
     display: flex;width:598px;justify-content: space-around;
 }
+.h_list p img{
+    margin-top: 8px;
+}
 header a{
-    color: black
+    color: black;
+    font-size: 16px;
 
+}
+header a:hover{
+    color: green;
+}
+header li{
+    margin-top: 5px;
 }
 .h_list>div{
     display: flex;height:64px;align-items: center

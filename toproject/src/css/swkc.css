@@ -1,0 +1,215 @@
+.swkc_banner{
+    height: 526px;
+    width: 100%;
+    margin: 0 auto;
+    background: url(../images/2018_5_15_1526351302546611820.jpg) no-repeat top;
+    position: relative;
+}
+.swkc_banner button{
+    position: absolute;
+    left: 40%;top:60%;
+    width: 310px;
+    height: 56px;
+    color: #fff;
+    background: #3eb166;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.swkc_banner button:hover{
+    opacity: .9
+}
+.swkc_con1{
+    height: 668px;
+    background: url(../images/2018_5_15_1526351396676524559.jpg) no-repeat top;
+    width: 100%;
+}
+.swkc_con1 h2{
+    text-align: center;
+    font-size: 34px;
+    padding-top: 70px;
+}
+.swkc_con1 p{
+    font-size: 20px;
+    color: #848492;
+    text-align: center;
+    margin-bottom: 56px;
+}
+.swkc_con1_pic{
+    height: 380px;
+    width: 1180px;
+    margin: 0 auto;
+    background: #fff;
+}
+.swkc_con1_pic ul{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.swkc_con1_pic ul li{
+    width: 295px;
+    height: 190px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    
+}
+.swkc_con1_pic ul li p{
+    position: absolute;
+    left: 40%;
+    top: 70%;
+    color: #fff;
+    font-size: 20px;
+}
+.swkc_con1_pic ul li:nth-of-type(2)>div{
+   background-position: -85px 0px;
+}
+.swkc_con1_pic ul li>div{
+    position: absolute;
+    left: 40%;
+    top:15%;
+    width: 74px;
+    height: 74px;
+    background: url(../images/bs-resource-icon.png) no-repeat top left
+}
+.swkc_con1_pic ul li img{
+    width: 295px;
+    height: 190px;
+    transition: all .5s linear;
+}
+.swkc_con1_pic ul li:hover img{
+    transform: scale(1.1);
+}
+
+.swkc_con2 h2{
+    text-align: center;
+    font-size: 34px;
+    padding-top: 70px;
+}
+.swkc_con2>p{
+    font-size: 20px;
+    color: #848492;
+    text-align: center;
+    margin-bottom: 56px;
+}
+.swkc_con2_box{
+    width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.swkc_con2_box dt{
+    width: 370px;
+    height: 245px;
+    overflow: hidden;
+}
+.swkc_con2_box dt img{
+    width: 370px;
+    height: 245px;
+    transition: all .5s linear;
+}
+.swkc_con2_box dt img:hover{
+    transform: scale(1.1);
+}
+.swkc_con2_box dl{
+    width: 370px;
+    height: 330px;
+    background: #f5f5f5;
+    margin-bottom:30px; 
+    cursor: pointer;
+}
+.swkc_con2_box dd{
+    margin-left: 20px;
+}
+.swkc_con2_box dd h4{
+    font-size: 16px;
+    margin-top: 20px;
+}
+.swkc_con2_box dd p{
+    font-size: 12px;
+}
+.swkc_con3{
+    height: 306px;
+    width: 100%;
+    background: url(../images/2018_5_15_1526351434398788754.jpg) no-repeat top;
+}
+.swkc_con3 h2{
+    text-align: center;
+    font-size: 34px;
+    padding-top: 70px;
+    color: #fff;
+}
+.swkc_con3>p{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 56px;
+}
+.swkc_con3_box{
+    height: 210px;
+    width: 1180px;
+    position: relative;
+    background: #fff;
+    margin: 0 auto;
+}
+.swkc_con3_box ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.swkc_con3_box ul li{
+    margin-top: 10px;
+    border-bottom: 1px solid #f1f1f1;
+    border-right: 1px solid #f1f1f1;
+}
+.swkc_con4{
+    width:100%;
+    height: 200px;
+    background:#f2f2f2;
+    
+}
+.swkc_con5{
+    width:100%;
+    height: 300px;
+    background:url(../images/2018_5_15_1526351478425620609.jpg) no-repeat top;
+    text-align: center;
+}
+.swkc_con5 p{
+    font-size: 18px;
+}
+.swkc_con5 button{
+    width: 310px;
+    height: 60px;
+    margin: 0 auto;
+    background: #3eb166;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+}
+.swkc_con5 button:hover{
+    opacity: .9;
+}
+
+.swkc_scroll{
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    width: 70px;
+    height: 70px;
+    background:#ddd;
+    text-align: center;
+    cursor: pointer;
+    display: none;
+}
+.swkc_scroll img{
+    margin: 10px auto 6px;
+}

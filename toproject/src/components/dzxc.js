@@ -1,5 +1,6 @@
 
 import React from "react"
+import Header from "./header";
 
 
 class Dzxc extends React.Component{
@@ -9,7 +10,7 @@ class Dzxc extends React.Component{
     render(){
         return(
             <div>
-               
+               <Header/>
             </div>
         )
     }

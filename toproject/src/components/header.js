@@ -10,21 +10,19 @@ class Header extends React.Component{
         super(props)
     }
 
-
-
    render(){
        return(
            <div>
                 <header>
                         <div className="h_list">
-                            <p><Link to="/home"><img src={h_logo} /></Link></p>
+                            <p><Link to="/home" ><img src={h_logo} /></Link></p>
                             <ul className="h_l">
-                                <li><Link to="/home">首页</Link></li>
-                                <li><Link to="/dzxc">定制行程</Link></li>
-                                <li><Link to="/mdd">目的地</Link></li>
-                                <li><Link to="/khpj">客户评价</Link></li>
-                                <li><Link to="/swkc">商务考察</Link></li>
-                                <li><Link to="/dujia">度假&别墅</Link></li>
+                                <li><Link to="/home" activeStyle={{ color: 'green' }}>首页</Link></li>
+                                <li><Link to="/dzxc" activeStyle={{ color: 'green' }}>定制行程</Link></li>
+                                <li><Link to="/mdd" activeStyle={{ color: 'green' }}>目的地</Link></li>
+                                <li><Link to="/khpj" activeStyle={{ color: 'green' }}>客户评价</Link></li>
+                                <li><Link to="/swkc" activeStyle={{ color: 'green' }}>商务考察</Link></li>
+                                <li><Link to="/dujia" activeStyle={{ color: 'green' }}>度假&别墅</Link></li>
                             </ul>
                             <div>   
                                 <div>

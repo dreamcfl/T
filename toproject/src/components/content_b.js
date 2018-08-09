@@ -12,12 +12,12 @@ class Content_b extends React.Component{
 
     componentDidMount(){
         
-        $(".hov").hover(function(){
-            $(this).parent().find(".content_b_c_bottom_box1").stop().animate({top:'0px'},1000)
+        $(".content_b_c_bottom_box>div").hover(function(){
+            $(this).find(".content_b_c_bottom_box1").stop().animate({top:'0px'},500)
+        },function(){
+            $(this).find(".content_b_c_bottom_box1").stop().animate({top:'320px'},500)
         })
-        $(".content_b_c_bottom_box1").hover(function(){},function(){
-            $(this).stop().animate({top:'320px'},1000)
-        })
+       
     }
    render(){
      var  arr=[1,2,3,4,5,6]
@@ -28,7 +28,7 @@ class Content_b extends React.Component{
                      <p>— 专业旅行顾问量身定制行程 —</p>
                      <div className="content_b_c_bottom">
                      
-  <Carousel>
+  <Carousel autoplay>
    {
        arr.map(function(ietm,i){
            return( <div key={i}>
